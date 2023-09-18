@@ -23,8 +23,8 @@ class Animal:
         peces = Pez.cantidadPeces()
         anfibios = Anfibio.cantidadAnfibios()
         return (
-            f"Mamiferos: {mamiferos}\nAves: {aves}\nReptiles: {reptiles}\n" + \
-                f"Peces: {peces}\nAnfibios:{anfibios}"
+            f"Mamiferos : {mamiferos}\nAves : {aves}\nReptiles : {reptiles}\n" + \
+                f"Peces : {peces}\nAnfibios : {anfibios}"
         )
 
     def __str__(self) -> str:
