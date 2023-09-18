@@ -38,6 +38,9 @@ class Animal:
         zoo = self._zona.getZoo().getNombre()
         return f"{texto}, la zona en la que me ubico es {zona}, en el {zoo}"
 
+    def toString(self):
+        return str(self)
+
     def getNombre(self):
         return self._nombre
 
