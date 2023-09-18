@@ -9,7 +9,8 @@ class Animal:
         self._zona = None
         Animal._totalAnimales += 1
 
-    def totalPorTipo(self):
+    @staticmethod
+    def totalPorTipo():
         from .mamifero import Mamifero
         from .ave import Ave
         from .reptil import Reptil
