@@ -29,7 +29,7 @@ class Animal:
 
     def __str__(self) -> str:
         texto = f"Mi nombre es {self._nombre}, tengo una edad de {self._edad}, " + \
-            f"habito en {self._habitat}, y mi genero es {self._genero}"
+            f"habito en {self._habitat} y mi genero es {self._genero}"
 
         if self._zona is None:
             return texto
