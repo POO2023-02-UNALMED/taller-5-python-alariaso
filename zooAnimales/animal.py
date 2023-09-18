@@ -1,5 +1,6 @@
 from .mamifero import Mamifero
 from .ave import Ave
+from .reptil import Reptil
 from .pez import Pez
 from .anfibio import Anfibio
 
@@ -17,7 +18,7 @@ class Animal:
     def totalPorTipo(self):
         mamiferos = Mamifero.cantidadMamiferos()
         aves = Ave.cantidadAves()
-        reptiles = 0
+        reptiles = Reptil.cantidadReptiles()
         peces = Pez.cantidadPeces()
         anfibios = Anfibio.cantidadAnfibios()
         return (
