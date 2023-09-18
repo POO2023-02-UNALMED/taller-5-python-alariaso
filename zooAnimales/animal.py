@@ -1,5 +1,6 @@
 from .mamifero import Mamifero
 from .ave import Ave
+from .pez import Pez
 from .anfibio import Anfibio
 
 class Animal:
@@ -17,7 +18,7 @@ class Animal:
         mamiferos = Mamifero.cantidadMamiferos()
         aves = Ave.cantidadAves()
         reptiles = 0
-        peces = 0
+        peces = Pez.cantidadPeces()
         anfibios = Anfibio.cantidadAnfibios()
         return (
             f"Mamiferos: {mamiferos}\nAves: {aves}\nReptiles: {reptiles}\n" + \
