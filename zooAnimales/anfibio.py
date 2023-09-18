@@ -1,4 +1,4 @@
-from .animal import Animal
+from . import Animal
 
 class Anfibio(Animal):
     _listado = []
