@@ -9,9 +9,6 @@ class Animal:
         self._zona = None
         Animal._totalAnimales += 1
 
-    def movimiento(self):
-        return ""
-
     def totalPorTipo(self):
         mamiferos = 0
         aves = 0
